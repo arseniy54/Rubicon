@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Rubicon.Controllers;
+using Rubicon.Controllers.Conext;
 
 namespace Rubicon
 {
@@ -28,7 +29,12 @@ namespace Rubicon
         {
             IServiceCollection serviceCollections = services.AddDbContext<BudgetContext>(opt =>
             opt.UseInMemoryDatabase("Budget"));
+
+            services.AddDbContext<NoteContext>(opt =>
+            opt.UseInMemoryDatabase("Budget"));
+            
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
