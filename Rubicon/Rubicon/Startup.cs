@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Rubicon.Conext;
 using Rubicon.Controllers;
 using Rubicon.Controllers.Conext;
 
@@ -28,11 +29,16 @@ namespace Rubicon
         public void ConfigureServices(IServiceCollection services)
         {
             IServiceCollection serviceCollections = services.AddDbContext<BudgetContext>(opt =>
-            opt.UseInMemoryDatabase("Budget"));
+            opt.UseInMemoryDatabase("db"));
 
             services.AddDbContext<NoteContext>(opt =>
-            opt.UseInMemoryDatabase("Budget"));
-            
+            opt.UseInMemoryDatabase("db"));
+
+
+            services.AddDbContext<UsersContext>(opt =>
+            opt.UseInMemoryDatabase("db"));
+
+
             services.AddControllers();
 
         }

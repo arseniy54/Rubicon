@@ -16,6 +16,7 @@ namespace Rubicon.Controllers
             }
         public DbSet<Budget> Budgets { get; set; }
         public DbSet<Rubicon.Models.Note> Note { get; set; }
+        public DbSet<Rubicon.Models.Users> Users { get; set; }
     }
             
        
