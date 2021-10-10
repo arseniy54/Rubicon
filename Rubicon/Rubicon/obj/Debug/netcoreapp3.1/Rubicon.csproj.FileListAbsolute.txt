@@ -128,8 +128,6 @@ C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreap
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\obj\Debug\netcoreapp3.1\Rubicon.csproj.CoreCompileInputs.cache
-C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\obj\Debug\netcoreapp3.1\Rubicon.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
@@ -151,3 +149,5 @@ C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreap
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\obj\Debug\netcoreapp3.1\Rubicon.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Rubicon\Rubicon\Rubicon\obj\Debug\netcoreapp3.1\Rubicon.MvcApplicationPartsAssemblyInfo.cache
