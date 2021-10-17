@@ -52,8 +52,8 @@ namespace Rubicon
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseCors(options => options.WithOrigins("http://localhost:8080").AllowAnyMethod());
-            app.UseCors(options => options.WithOrigins("http://localhost:8080/login").AllowAnyMethod());
+            app.UseCors(options => options.WithOrigins("http://localhost:8081").AllowAnyHeader());
+            app.UseCors(options => options.WithOrigins("http://localhost:8081").AllowAnyMethod());
 
 
             app.UseRouting();
