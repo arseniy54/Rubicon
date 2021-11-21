@@ -79,6 +79,7 @@ namespace Rubicon.Controllers
         [HttpPost]
         public async Task<ActionResult<Note>> PostNote(Note note)
         {
+            note.CreateTime = DateTime.UtcNow;
             _context.Note.Add(note);
             await _context.SaveChangesAsync();
 
